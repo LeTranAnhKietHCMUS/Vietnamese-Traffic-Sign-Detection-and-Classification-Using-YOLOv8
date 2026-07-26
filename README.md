@@ -138,31 +138,7 @@ All 4 models were trained for **50 epochs** on a **Tesla T4 GPU (Kaggle)**, with
 
 > 💡 The structure above is a suggested layout — adjust folder/file names to match your actual source code before pushing to GitHub.
 
-## Installation
 
-```bash
-# Clone repository
-git clone https://github.com/<username>/vietnamese-traffic-sign-yolov8.git
-cd vietnamese-traffic-sign-yolov8
-
-# Create a virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install ultralytics albumentations opencv-python pandas matplotlib
-```
-
-**Suggested `requirements.txt`:**
-```
-ultralytics>=8.0.0
-albumentations>=1.3.0
-opencv-python
-numpy
-pandas
-matplotlib
-seaborn
-```
 
 ## Usage
 
@@ -356,31 +332,7 @@ Cả 4 mô hình được huấn luyện **50 epochs** trên GPU **Tesla T4 (Kag
 
 > 💡 Cấu trúc trên là gợi ý tổ chức repo — hãy điều chỉnh lại cho khớp với cách bạn tổ chức mã nguồn thực tế trước khi push lên GitHub.
 
-## Cài đặt
 
-```bash
-# Clone repository
-git clone https://github.com/<username>/vietnamese-traffic-sign-yolov8.git
-cd vietnamese-traffic-sign-yolov8
-
-# Tạo môi trường ảo (khuyến nghị)
-python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
-
-# Cài đặt thư viện
-pip install ultralytics albumentations opencv-python pandas matplotlib
-```
-
-**`requirements.txt` gợi ý:**
-```
-ultralytics>=8.0.0
-albumentations>=1.3.0
-opencv-python
-numpy
-pandas
-matplotlib
-seaborn
-```
 
 ## Hướng dẫn sử dụng
 
